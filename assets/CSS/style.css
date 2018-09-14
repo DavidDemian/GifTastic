@@ -1,0 +1,97 @@
+body{
+    background-image: url('../CSS/color-background-6.jpg');
+    background-size: cover
+}
+
+.panel .name {
+    font-family: 'Handlee', cursive;
+    font-size: 48px;
+    color: purple;
+    border-radius: 10px;
+    border-color: black;
+
+}
+
+.panel {
+    font-size: 22px;
+    font-family: 'Caveat', cursive;
+}
+
+
+#addButton {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+
+}
+
+
+.text {
+    margin-top: 3%;
+}
+
+/*gif div*/
+
+#gifForm {
+    text-align: center;
+}
+
+#startingButtons {
+    margin: 5%;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    color: purple;
+    border-radius: 10px;
+    background-color: cornflowerblue
+}
+
+.topic {
+    font-family: 'Bungee', cursive;
+}
+
+
+/*form*/
+
+form {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+}
+
+#gif-input {
+    margin: 2%;
+}
+
+label {
+    font-family: 'Handlee', cursive;
+}
+
+#addGif {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    padding: 1.5%;
+    border: 3px solid black;
+    border-radius: 20%;
+    background-color: cornflowerblue;
+    color:purple;
+}
+
+/*gif image area and appeared gifs*/
+
+.jumbotron {
+    background-color: transparent !important;
+}
+
+.jumbotron img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.item p {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}

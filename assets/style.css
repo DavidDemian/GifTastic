@@ -1,0 +1,96 @@
+
+
+
+.panel .name {
+    font-family: 'Handlee', cursive;
+    font-size: 48px;
+    color: darkcyan;
+    border-radius: 10px;
+    border-color: darkblue;
+
+}
+
+.panel {
+    font-size: 22px;
+    font-family: 'Caveat', cursive;
+}
+
+
+#addButton {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    background-color: white;
+}
+
+
+.text {
+    margin-top: 3%;
+}
+
+/*gif div*/
+
+#gifForm {
+    text-align: center;
+}
+
+#startingButtons {
+    margin: 5%;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    color: darkblue;
+    border-radius: 10px;
+    background-color: darkcyan
+}
+
+.topic {
+    font-family: 'Bungee', cursive;
+}
+
+
+/*form*/
+
+form {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+}
+
+#gif-input {
+    margin: 2%;
+}
+
+label {
+    font-family: 'Handlee', cursive;
+}
+
+#addGif {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    padding: 1.5%;
+    border: 3px solid black;
+    border-radius: 30%;
+    background-color: darkcyan;
+    color:darkblue;
+}
+
+/*gif image area and appeared gifs*/
+
+.jumbotron {
+    background-color: transparent !important;
+}
+
+.jumbotron img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.item p {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+
