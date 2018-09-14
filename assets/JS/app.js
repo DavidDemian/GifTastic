@@ -36,7 +36,7 @@ renderButtons();
 function addGif() {
   $('button').on('click', function () {
     var p = $(this).data('name');
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=V8frN9B5rcffcfFzfx7HgS52Atau2wAU";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=V8frN9B5rcffcfFzfx7HgS52Atau2wAU";
 
     $.ajax({ url: queryURL, method: 'GET' })
       .done(function (response) {
